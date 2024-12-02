@@ -1,5 +1,6 @@
 # citrc-final
 > 時間限制都是 1s, 空間限制都是 1024MB
+> ~~~我寫隨便生的意思就是random~~
 ## problemA. I love CITRC
 - 100 point
 - 要寫checker
