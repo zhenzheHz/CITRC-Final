@@ -14,10 +14,10 @@ int main() {
     for(int i=0;i<q;i++) {
         cin >> cls;
         if(mp[cls] > MAX) {
-			MAX = mp[cls];
-			m = cls;
-		}
-		total += mp[cls];
+	    MAX = mp[cls];
+	    m = cls;
+	}
+	total += mp[cls];
         cout << mp[cls] << '\n';
     }
     cout << "total:" << total << '\n';
