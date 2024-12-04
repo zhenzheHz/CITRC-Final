@@ -62,3 +62,8 @@
 - 100 point
 - reverse function實作題
 - 也是隨便生
+
+## problemK. Skip Class
+- 100 point
+- map題
+- 子題一是n=2,q=2,且詢問必為出現過的
