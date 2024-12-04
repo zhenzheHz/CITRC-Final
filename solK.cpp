@@ -10,7 +10,7 @@ int main() {
         mp[cls] += x;
     }
     int MAX = -1, total = 0;
-	string m;
+    string m;
     for(int i=0;i<q;i++) {
         cin >> cls;
         if(mp[cls] > MAX) {
