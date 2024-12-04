@@ -10,12 +10,16 @@ int main() {
         mp[cls] += x;
     }
     int MAX = -1, total = 0;
+	string m;
     for(int i=0;i<q;i++) {
         cin >> cls;
-        MAX = max(MAX, mp[cls]);
-        total += mp[cls];
+        if(mp[cls] > MAX) {
+			MAX = mp[cls];
+			m = cls;
+		}
+		total += mp[cls];
         cout << mp[cls] << '\n';
     }
     cout << "total:" << total << '\n';
-    cout << "most:" << MAX << '\n';
+    cout << "most:" << m  << '\n';
 }
