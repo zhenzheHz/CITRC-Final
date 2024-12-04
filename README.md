@@ -1,6 +1,8 @@
 # citrc-final
 > 題解ouob : [CITRC Final](https://hackmd.io/@zhenzhe/citrcfinal)
+
 > 時間限制都是 1s, 空間限制都是 1024MB
+ 
 > ~~我寫隨便生的意思就是random~~
 ## problemA. I love CITRC
 - 100 point
