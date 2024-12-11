@@ -12,7 +12,7 @@ signed main() {
         cin >> s;
         int diff = 0;
         for(int j=0;j<s.size();j++) {
-            if(i & 1) diff += s[j]-'0';
+            if(j & 1) diff += s[j]-'0';
             else diff -= s[j]-'0';
         }
         diff = abs(diff);
